@@ -1,0 +1,43 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-family: cursive;
+	background-image: url(http://www.gimpusers.com/system/tutorial_steps/839/13-original.png);
+	background-attachment: fixed;
+}
+#titulo > h1 {
+	text-align: center;
+	font-size: 2vw;
+	border: 0.1vw solid white;
+	width: 90vw;
+	height: 5vw;
+	color: white;
+}
+#imgprinci {
+	width: 50vw;
+	height: 40vw;
+	border: 0.1vw solid white;
+}
+#imgprinci > img {
+	width: 50vw;
+	height: 40vw;
+}
+#imggaleria {
+	width: 35vw;
+	height: 40vw;
+	border: 0.1vw solid white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+#imggaleria > div {
+	width: 12vw;
+	height: 5vw;
+	border: 0.1vw solid white;
+}
+#imggaleria > div > img {
+	width: 12vw;
+	height: 5vw;
+}
